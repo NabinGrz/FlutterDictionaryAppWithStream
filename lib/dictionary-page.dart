@@ -57,7 +57,7 @@ class _DictionaryPageState extends State<DictionaryPage> {
           ),
           backgroundColor: appBarColor,
           bottom: PreferredSize(
-              preferredSize: const Size.fromHeight(45),
+              preferredSize: const Size.fromHeight(55),
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.start,
                 children: [
@@ -89,7 +89,7 @@ class _DictionaryPageState extends State<DictionaryPage> {
                   ),
                   IconButton(
                       onPressed: () async {
-                        await search();
+                        //await search();
                       },
                       icon: const Icon(
                         CupertinoIcons.search,
